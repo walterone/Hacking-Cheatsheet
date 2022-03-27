@@ -1,0 +1,127 @@
+{
+  "main": {
+    "id": "b5d766444d18dea9",
+    "type": "split",
+    "children": [
+      {
+        "id": "009606cd1f9311a9",
+        "type": "leaf",
+        "dimension": 37.922077922077925,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "MD Reference.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "78ecef30337b75ef",
+        "type": "leaf",
+        "dimension": 37.04545454545455,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Privilege Escalation (Linux).md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "3f4e1692b778fa3c",
+        "type": "leaf",
+        "dimension": 25.032467532467535,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "The Cheatsheet.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cbda301b5bd0b604",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fba49ed7cc447ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fea2aea4e369f307",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "caa0660ab3f07f4b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "649d35a36e59a48d",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb8225086aa7e9ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "744fd262e0b298e9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Privilege Escalation (Linux).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "78ecef30337b75ef",
+  "lastOpenFiles": [
+    "Privilege Escalation (Linux).md",
+    "MD Reference.md",
+    "Local Code Injection.md",
+    "WebApps/Formula Injection.md",
+    "WebApps/XXE.md",
+    "Untitled 1.md",
+    "The Cheatsheet.md",
+    "Special Tools.md",
+    "Service Scanning/SMB.md",
+    "Post Exploitaton/Shells.md"
+  ]
+}
