@@ -1,6 +1,6 @@
 ## Comandi Base
 
-#### git Commit | Crea repo
+#### GIT Commit | Crea repo
 ```bash
 #Nella cartella con i file del progetto
 git init
@@ -20,11 +20,24 @@ git push -u origin master
 **Attenzione, git non usa pie' autenticazione password. E' necessario generarsi un [Token](https://github.com/settings/tokens)**
 
 
-#### git Pull | Aggiorna repo
+#### GIT Pull | Sync repo locale
+PULL e' una combinazione di 'git fetch' e 'git merge'.
+Usato per sincronizzare i file locali con quelli remoti.
 
+E' **mandatorio** farlo prima di un push se sono stati creati file direttamente da github.com
 ```bash
-#PULL e' una combinazione di 'git fetch' e 'git merge' 
-
 git pull 'remote_name' 'branch_name'
-#PULL e' una combinazione di 'git fetch' e 'git merge' 
+
+#O anche semplicemente
+git pull
 ```
+
+#### GIT Push | Pushare modifiche locali
+```bash
+git status
+
+git add .
+
+git commit -m 'altro messaggio'
+
+git push
