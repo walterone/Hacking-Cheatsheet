@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Privilege Escalation (Linux).md",
+            "file": "Git.md",
             "mode": "source"
           }
         }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privilege Escalation (Linux).md",
+                "file": "Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,12 +113,12 @@
   },
   "active": "78ecef30337b75ef",
   "lastOpenFiles": [
+    "Git.md",
     "Privilege Escalation (Linux).md",
     "MD Reference.md",
     "Local Code Injection.md",
     "WebApps/Formula Injection.md",
     "WebApps/XXE.md",
-    "Untitled 1.md",
     "The Cheatsheet.md",
     "Special Tools.md",
     "Service Scanning/SMB.md",
