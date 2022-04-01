@@ -2,14 +2,14 @@
 
 
 ## Nmap General Rules
-**When pivoting do not overload with heavy scans!**
+#### When pivoting do not overload with heavy scans!
 
 ```bash
 sudo nmap -O -sT -Pn -v -T4 -oA eztcp <ip>
 ```
 
 
-**Finding nmap's scripts**
+#### Finding nmap's scripts
 
 ```bash
 locate .nse | grep ftp
@@ -17,7 +17,13 @@ locate .nse | grep ftp
 nmap --script-help ftp-anon
 ```
 	
-	
+#### Generate comma-separated list of scripts to run, to be used as ```--script``` argument
+```bash
+#Untested
+for s in `ls -l /usr/share/nmap/scripts/* | cut -d"/" -f 6 | cut -d"." -f 1`; do echo -ne "$s,"; done
+```
+Fine-tune results by modifying "ls" command.
+
 ***
 ## Nmap TCP
    

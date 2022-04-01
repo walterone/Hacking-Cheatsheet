@@ -26,6 +26,12 @@ enum4linux-ng 89.108.102.21 -As
 
 ```
 
+## Download Files
+
+```bash
+#Scarica TUTTI i files nella cartella
+smbget -R smb://192.168.212.71/backups  
+```
 
 * PsExec
 * 
