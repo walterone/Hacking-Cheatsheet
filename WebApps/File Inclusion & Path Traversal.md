@@ -103,7 +103,7 @@ Se non riesco ad ottenere una revshell posso comunque eseguire codice via php ca
 
 ```
 
-Vedere anche [[File Download]]
+Vedere anche [[Post Exploitaton/File Download]]
 ***
 # Common Issues
 
