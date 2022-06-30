@@ -1,8 +1,6 @@
 # AS-REP Roasting
 
-AS-REP roasting is a technique that allows retrieving password hashes for users that have `Do not require Kerberos preauthentication` property selected:
-
-![](../../.gitbook/assets/screenshot-from-2019-03-12-21-08-33.png)
+AS-REP roasting is a technique that allows retrieving password hashes for users that have `Do not require Kerberos preauthentication` property selected.
 
 Those hashes can then be cracked offline, similarly to how it's done in [[Kerbroasting]].
 

@@ -38,4 +38,8 @@ Detto anche **Forced Browsing**
 
 ## Code Injection
 #### SQLi
+[Login bypass List](https://github.com/carlospolop/hacktricks/blob/master/pentesting-web/login-bypass/sql-login-bypass.md)
+```
+/usr/share/seclists/loginbypass
+```
 #### PHP

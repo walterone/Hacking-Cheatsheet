@@ -7,3 +7,17 @@ On the other hand, a static executable will include all of the code needed for t
 UN file statico è molto più pesante (ovviamente).
 
 Per controllare il tipo di file usare il tool "file":
+![[Pasted image 20220513235842.png]]
+
+Invece per vedere (SOLO NEGLI ESEGUIBILI SHARED) le librerie dipendenti usare "ldd":
+![[Pasted image 20220513235806.png]]
+
+Varie opzioni del compilatore nel caso ci sono problemi (le varie librerie sono state installate sulla mai kali)
+
+`gcc -m32 -Wl,--hash-style=both -o <output filename> <input filename>`
+
+	
+	
+## Cross Compiling
+
+[[AV Bypass]]

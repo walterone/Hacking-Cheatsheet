@@ -51,5 +51,25 @@ Utilizza come indici le colonne del risultato, e le ordina asc/desc
 find . -type f 2> /dev/null | sort -k 8,10
 ```
 
+
+
+## Column Separation
+#### awk
+```bash 
+#-F è il separatore 
+cat home_smalltcp.nmap | grep 192.168.1 | awk -F ' ' '{print $5}' 
+```
+
 # Bash/zsh
 [[Bash Config & Customization]]
+
+# Quality of Life
+Spazio disco:
+```bash
+#disk free
+df -h
+df 0sh
+
+#disk usage
+du
+```
